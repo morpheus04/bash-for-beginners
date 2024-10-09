@@ -2,4 +2,6 @@
 
 # Welcome to your first Bash Script
 
-echo 'Hello World!'
+hello_message = 'Hello World!'
+
+echo $hello_message

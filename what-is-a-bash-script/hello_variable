@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Welcome to your first Bash Script
+
+hello_message='Hello, Folks!'
+current_dir=$(pwd)
+readonly variable_wont_change="green"
+$variable_wont_change="red"
+
+echo "$hello_message from $current_dir", your favourite colour is $variable_wont_change
